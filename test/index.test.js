@@ -1,4 +1,4 @@
-import { fileLoader, mergeTypes, mergeResolvers } from '../src/index';
+import { mergeTypes, mergeResolvers } from '../src/index';
 
 describe('index', () => {
   it('exposes mergeTypes', () => {
@@ -9,7 +9,7 @@ describe('index', () => {
     expect(mergeResolvers).toBeDefined();
   });
 
-  it('exposes fileLoader', () => {
-    expect(fileLoader).toBeDefined();
-  });
+  // it('exposes fileLoader', () => {
+  //   expect(fileLoader).toBeDefined();
+  // });
 });
