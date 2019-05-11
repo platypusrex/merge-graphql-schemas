@@ -8,8 +8,4 @@ describe('index', () => {
   it('exposes mergeResolvers', () => {
     expect(mergeResolvers).toBeDefined();
   });
-
-  // it('exposes fileLoader', () => {
-  //   expect(fileLoader).toBeDefined();
-  // });
 });
